@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_bottom"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.fanlarakademiyasi.presentation.ui.screen.fragment.main.pages.home.HomePage"
+        android:label="HomePage" />
+    <fragment
+        android:id="@+id/newsPage"
+        android:name="com.example.fanlarakademiyasi.presentation.ui.screen.fragment.main.pages.NewsPage"
+        android:label="NewsPage" />
+    <fragment
+        android:id="@+id/searchPage"
+        android:name="com.example.fanlarakademiyasi.presentation.ui.screen.fragment.main.pages.SearchPage"
+        android:label="SearchPage" />
+    <fragment
+        android:id="@+id/settingsPage"
+        android:name="com.example.fanlarakademiyasi.presentation.ui.screen.fragment.main.pages.SettingsPage"
+        android:label="SettingsPage" />
+</navigation>

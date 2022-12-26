@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Academy of Sciences</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="news">News</string>
+    <string name="version">1.0.0 version</string>
+    <string name="skip">Skip</string>
+    <string name="example">Welcome "Fanlar Academy"</string>
+    <string name="choose_language">Choose language</string>
+    <string name="uzbek" tools:ignore="StringEscaping">Uzbek</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+    <string name="academy_of_science">Academy of Science</string>
+    <string name="works">Works</string>
+    <string name="documents">Documents</string>
+    <string name="services">Services</string>
+    <string name="press_service">Press service</string>
+    <string name="international_relations">International relations</string>
+    <string name="youth_issues">Youth issues</string>
+</resources>

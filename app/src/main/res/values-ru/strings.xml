@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Академия наук</string>
+    <string name="home">Дом</string>
+    <string name="search">Поиск</string>
+    <string name="news">Новости</string>
+    <string name="version">1.0.0 версия</string>
+    <string name="skip">Пропускать</string>
+    <string name="example">Добро пожаловать в "Академию Фанлар"</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="uzbek" tools:ignore="StringEscaping">Узбекский</string>
+    <string name="russian">Русский</string>
+    <string name="english">Английский</string>
+    <string name="academy_of_science">Академия наук</string>
+    <string name="works">Работает</string>
+    <string name="documents">Документы</string>
+    <string name="services">Услуги</string>
+    <string name="press_service">Пресс-служба</string>
+    <string name="international_relations">International relations</string>
+    <string name="youth_issues">Молодежные вопросы</string>
+</resources>

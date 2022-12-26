@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Fanlar akademiyasi</string>
+    <string name="home">Bosh sahifa</string>
+    <string name="search">Qidirish</string>
+    <string name="news">Yangiliklar</string>
+    <string name="version">1.0.0 versiya</string>
+    <string name="skip" tools:ignore="StringEscaping">O\'tkazib yuborish</string>
+    <string name="example">Xush kelibsiz</string>
+    <string name="choose_language">Tilni tanlash</string>
+    <string name="uzbek" tools:ignore="StringEscaping">O\'zbekcha</string>
+    <string name="russian">Ruscha</string>
+    <string name="english">Inglizcha</string>
+    <string name="academy_of_science">Fanlar akademiyasi</string>
+    <string name="works">Faoliyat</string>
+    <string name="documents">Hujjatlar</string>
+    <string name="services">Xizmatlar</string>
+    <string name="press_service">Matbuot xizmati</string>
+    <string name="international_relations">Xalqaro aloqalar</string>
+    <string name="youth_issues">Yoshlarga oid</string>
+</resources>

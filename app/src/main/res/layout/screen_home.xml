@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/sendQuestions"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/back_style_image"
+        android:padding="@dimen/_7sdp"
+        android:src="@drawable/contact_women_talking_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+
+        android:id="@+id/contact"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/back_style_image"
+        android:padding="@dimen/_7sdp"
+        android:src="@drawable/contact_phone_talking_svgrepo_com"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/geometria"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/sendQuestions"
+        app:layout_constraintLeft_toRightOf="@id/sendQuestions"
+        app:layout_constraintRight_toLeftOf="@id/contact"
+        app:layout_constraintTop_toTopOf="@id/sendQuestions" />
+
+    <com.google.android.material.tabs.TabLayout
+
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:tabMode="scrollable"
+        app:layout_constraintTop_toBottomOf="@id/sendQuestions" />
+
+    <androidx.viewpager2.widget.ViewPager2
+
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
